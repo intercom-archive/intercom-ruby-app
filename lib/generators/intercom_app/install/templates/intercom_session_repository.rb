@@ -1,0 +1,1 @@
+IntercomApp::SessionRepository.storage = InMemorySessionStore

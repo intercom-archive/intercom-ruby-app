@@ -1,0 +1,1284 @@
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.5ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.4ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(myintercom.com)
+------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(my-shop)_with_custom_myintercom_domain
+----------------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_have_a_success_flash_message
+---------------------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_render_the_login_page_if_the_shop_param_doesn't_exist
+--------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(http://my-shop.myintercom.com)
+--------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_start_the_WebhooksManager_if_webhooks_are_configured
+---------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(my-shop.myintercom.com)
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#new_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-----------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#new_should_trust_the_shop_param_over_the_current_session
+---------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(https://my-shop.myintercom.io)_with_custom_myintercom_domain
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(https://my-shop.myintercom.com)
+---------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(two_words)
+-------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(intercom.com)
+----------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(store.myintercom.com.evil.com)
+---------------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_have_a_success_flash_message_in_Spanish
+--------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(my-shop)
+----------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_doesn't_run_the_WebhooksManager_if_no_webhooks_are_configured
+-----------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(my-shop.myintercom.io)_with_custom_myintercom_domain
+------------------------------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(myshop.com)
+--------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_flash_error_when_omniauth_is_not_present
+---------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login_with_notice
+-----------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_redirect_with_notice_in_spanish
+-----------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#new_should_render_a_full-page_if_the_shop_param_doesn't_exist
+--------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#new_should_authenticate_the_shop_if_the_shop_param_exists
+----------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_authenticate_the_shop_for_the_URL_(http://my-shop.myintercom.io)_with_custom_myintercom_domain
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_flash_error_in_Spanish
+---------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#create_should_return_an_error_for_a_non-myintercom_URL_(/foo/bar)
+------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists_non_embedded
+-------------------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_authenticate_the_shop_if_the_shop_param_exists
+------------------------------------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_e
+---------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-------------------------------------------------------
+SessionsRoutesTest: test_login_routes_to_sessions#login
+-------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+---------------------------------------------------------------------------
+SessionsRoutesTest: test_auth_intercom_callback_routes_to_sessions#callback
+---------------------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+----------------------------------------------------------
+SessionsRoutesTest: test_logout_routes_to_sessions#destroy
+----------------------------------------------------------
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.3ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_default_intercom_session_repository
+--------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------
+InstallGeneratorTest: test_adds_engine_to_routes
+------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------
+InstallGeneratorTest: test_creats_and_injects_into_omniauth_initializer
+-----------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer
+--------------------------------------------------------------
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------------
+InstallGeneratorTest: test_injects_into_application_controller
+--------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+------------------------------------------------------------------------
+InstallGeneratorTest: test_creates_the_IntercomApp_initializer_with_args
+------------------------------------------------------------------------
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+--------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#login_should_
+--------------------------------------------------------
+Processing by IntercomApp::SessionsController#login as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#destroy_should_clear_intercom_from_session_and_redirect_to_login
+-----------------------------------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#destroy as HTML
+Redirected to http://test.host/login
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+-----------------------------------------------------------------------------------
+IntercomApp::SessionsControllerTest: test_#callback_should_setup_a_intercom_session
+-----------------------------------------------------------------------------------
+Processing by IntercomApp::SessionsController#callback as HTML
+Redirected to http://test.host/
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m

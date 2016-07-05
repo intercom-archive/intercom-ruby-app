@@ -1,0 +1,7 @@
+0.1.0
+-----
+* Rails generator
+* Intercom app sessions
+* IntercomApp::App model
+* Intercom Omniauth
+* intercom_app initializer

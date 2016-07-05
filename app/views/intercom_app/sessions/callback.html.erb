@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Authorized</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      setTimeout(function() {
+        if (window.opener) {
+          window.opener.oauth_success = true;
+        }
+        window.close();
+      }, 1000);
+    </script>
+  </body>
+</html>
