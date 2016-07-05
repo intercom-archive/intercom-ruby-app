@@ -22,14 +22,6 @@ module IntercomApp
       @intercom_session ||= IntercomApp::SessionRepository.retrieve(session[:intercom])
     end
 
-    # def login_again_if_different_app
-    #   if app_session && params[:shop] && params[:shop].is_a?(String) && shop_session.url != params[:shop]
-    #     session[:intercom] = nil
-    #     session[:intercom_app_id] = nil
-    #     redirect_to_login
-    #   end
-    # end
-
     protected
 
     def redirect_to_login
@@ -37,7 +29,7 @@ module IntercomApp
         head :unauthorized
       else
         session[:return_to] = request.fullpath if request.get?
-        redirect_to_with_fallback main_or_engine_login_url()
+        redirect_to_with_fallback main_or_engine_login_url
       end
     end
 

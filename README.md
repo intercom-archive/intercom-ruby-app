@@ -14,15 +14,17 @@ Cathal or Andy please provide a description of how to apply to become an Interco
 
 Installation
 ------------
-To get started add `intercom-app` to your Gemfile and bundle install
+To get started create a new rails app :
 
 ``` sh
 # Create a new rails app
 $ rails new my_intercom_app
 $ cd my_intercom_app
-
-# Add the gem intercom_app to your Gemfile
-$ echo "gem 'intercom_app'" >> Gemfile
+```
+Then add `intercom-app` to your Gemfile and bundle install :
+`gem 'intercom-app'`
+and run :
+``` sh
 $ bundle install
 ```
 
@@ -39,7 +41,10 @@ The default generator will run the `install`, `app_model`, and `home_controller`
 ```sh
 $ rails generate intercom_app --app_key <your_app_key> --app_secret <your_app_secret> --oauth_modal true
 ```
- -  
+ **oauth_modal**:
+   - If true you can authenticate with Intercom using a modal
+   - If false you can authenticate with Intercom directly from the current tab
+
 
 ### Install Generator
 
@@ -48,7 +53,7 @@ $ rails generate intercom_app:install
 
 # or optionally with arguments:
 
-$ rails generate intercom-app:install --app_key <your_app_key> --secret <your_app_secret> --oauth_modal true
+$ rails generate intercom_app:install --app_key <your_app_key> --secret <your_app_secret> --oauth_modal true
 ```
 
 You can update any of these settings later on easily, the arguments are simply for convenience.

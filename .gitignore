@@ -1,2 +1,4 @@
 *.gem
+test/intercom_ruby_app_example/log
 test/generators/tmp
+test/tmp
