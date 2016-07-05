@@ -8,9 +8,10 @@ Description
 This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via Oauth.
 
 Apply to become an Intercom Developer
---------------------------------
 
-Cathal or Andy please provide a description of how to apply to become an Intercom Developer
+--------------------------------
+To create an Intercom application and get your `app_key` and `app_secret` you will need to create an [Intercom application](app.intercom.io) first.
+Once your application is created you can apply for an oauth application in the "App Settings >> Oauth" section.
 
 Installation
 ------------
