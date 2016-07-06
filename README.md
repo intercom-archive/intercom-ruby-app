@@ -9,7 +9,7 @@ This gem includes a Rails Engine and generators for writing Rails applications u
 
 Apply to become an Intercom Developer
 --------------------------------
-To create an Intercom application and get your `app_key` and `app_secret` you will need to create an [Intercom application](app.intercom.io) first.
+To create an Intercom application and get your `app_key` and `app_secret` you will need to create an [Intercom application](https://app.intercom.io) first.
 Once your application is created you can apply for an oauth application in the "App Settings >> Oauth" section.
 
 Installation
