@@ -9,6 +9,6 @@ To release a new version of the intercom-ruby-app gem :
 6. Push the new tag :
   $ git push --tags
 7. Build the new gem :
-  $ gem build intercom-ruby-app.gemspec
+  $ gem build intercom-app.gemspec
 8. Push the new gem :
-  $ gem push intercom-ruby-app-X.Y.Z.gem
+  $ gem push intercom-app-X.Y.Z.gem
