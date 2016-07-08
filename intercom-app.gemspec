@@ -14,6 +14,8 @@ Gem::Specification.new do |s|
   s.homepage    =
     'http://rubygems.org/gems/intercom-ruby-app'
   s.license       = 'MIT'
+  s.require_paths = ["lib"]
+  s.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
 
   s.add_runtime_dependency 'intercom', '~>3.5'
   s.add_runtime_dependency 'omniauth-intercom', '~>0.1'
