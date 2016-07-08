@@ -34,7 +34,8 @@ module IntercomApp
 
       # for generating a timestamp when using `create_migration`
       def self.next_migration_number(dir)
-        ActiveRecord::Generators::Base.next_migration_number(dir)
+        Time.now.utc.strftime("%Y%m%d%H%M%S")
+        # ActiveRecord::Migration.next_migration_number(dir)
       end
     end
   end
