@@ -39,7 +39,7 @@ module IntercomApp
     private
 
     def mock_intercom_omniauth
-      request.env['omniauth.auth'] = { 'uid': '1', 'credentials' => { 'token' => '1234='}, 'extra' => { 'raw_info' => { 'app' => { 'id_code' => 'abc123' } } } }  if request
+      request.env['omniauth.auth'] = { 'uid' => '1', 'credentials' => { 'token' => '1234='}, 'extra' => { 'raw_info' => { 'app' => { 'id_code' => 'abc123' } } } }  if request
     end
   end
 end

@@ -15,9 +15,13 @@ Gem::Specification.new do |s|
     'http://rubygems.org/gems/intercom-ruby-app'
   s.license       = 'MIT'
 
-  s.add_dependency('rails', '>= 4.2.5')
+  s.add_runtime_dependency 'intercom', '~>3.5'
+  s.add_runtime_dependency 'omniauth-intercom', '~>0.1'
 
-  s.add_runtime_dependency('intercom', '~> 3.5.1')
-  s.add_runtime_dependency('omniauth-intercom', '~> 0.1.2')
-
+  s.add_development_dependency 'rails', '~> 4.2'
+  s.add_development_dependency 'sqlite3', '~> 0'
+  s.add_development_dependency 'mocha', '~> 0'
+  s.add_development_dependency 'byebug', '~> 0'
+  s.add_development_dependency 'bundler', '~> 1.12'
+  s.add_development_dependency 'rake', '~> 10.0'
 end

@@ -68,7 +68,7 @@ class LoginProtectionTest < ActionController::TestCase
 
   test '#intercom_session with no Intercom session, when the request is an XHR, returns an HTTP 401' do
     with_application_test_routes do
-      get :index, xhr: true
+      xhr :get, :index
       assert_equal 401, response.status
     end
   end
