@@ -1,7 +1,7 @@
 PATH
   remote: ../..
   specs:
-    intercom-app (0.1.0)
+    intercom-app (0.1.1)
       intercom (~> 3.5)
       omniauth-intercom (~> 0.1)
 
@@ -65,7 +65,7 @@ GEM
       activesupport (>= 4.1.0)
     hashie (3.4.4)
     i18n (0.7.0)
-    intercom (3.5.1)
+    intercom (3.5.2)
       json (~> 1.8)
     jbuilder (2.5.0)
       activesupport (>= 3.0.0, < 5.1)

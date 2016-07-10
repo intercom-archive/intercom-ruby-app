@@ -14,3 +14,6 @@ require "#{File.dirname(__FILE__)}/generator_test_helper.rb"
 class ActiveSupport::TestCase
   include GeneratorTestHelpers
 end
+def mock_intercom_omniauth
+  request.env['omniauth.auth'] = { 'uid' => '1', 'credentials' => { 'token' => '1234='}, 'extra' => { 'raw_info' => { 'app' => { 'id_code' => 'abc123' } } } }  if request
+end

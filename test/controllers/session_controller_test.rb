@@ -9,14 +9,20 @@ module IntercomApp
       IntercomApp.configuration = nil
     end
 
-    test "#login should " do
-      auth_url = '/auth/intercom'
+    test "#login" do
       get :login
-      assert_match '<html><body>You are being <a href="http://test.host/login">redirected</a>.</body></html>', response.body
+      assert_match "<a href=\"/auth/intercom\">Login</a>", response.body
+    end
+
+    test "#login with oauth_modal config" do
+      IntercomApp.configuration.oauth_modal = true
+
+      get :login
+      assert_match "<a href=\"javascript:void(0)\" class=\"intercom-oauth-cta\">", response.body
     end
 
 
-    test "#callback should setup a intercom session" do
+    test "#callback should setup an intercom session" do
       mock_intercom_omniauth
 
       get :callback
@@ -36,10 +42,35 @@ module IntercomApp
       assert_redirected_to login_path
     end
 
-    private
+    test "#callback should start the WebhooksManager if webhooks are configured" do
+      IntercomApp.configure do |config|
+        config.webhooks = [{topic: 'users', url: 'example-app.com/webhooks/users'}]
+      end
 
-    def mock_intercom_omniauth
-      request.env['omniauth.auth'] = { 'uid' => '1', 'credentials' => { 'token' => '1234='}, 'extra' => { 'raw_info' => { 'app' => { 'id_code' => 'abc123' } } } }  if request
+      IntercomApp::WebhooksManager.expects(:create_webhooks)
+
+      mock_intercom_omniauth
+      get :callback
     end
+
+    test "#callback doesn't run the WebhooksManager if no webhooks are configured" do
+      IntercomApp.configure do |config|
+        config.webhooks = []
+      end
+
+      IntercomApp::WebhooksManager.expects(:create_webhooks).never
+
+      mock_intercom_omniauth
+      get :callback
+    end
+
+    test "#callback closes popup if oauth_modal configuration" do
+      IntercomApp.configuration.oauth_modal = true
+
+      mock_intercom_omniauth
+      get :callback
+      assert_match "<html>\n  <head>\n    <title>Authorized</title>\n  </head>\n  <body>\n    <script type=\"text/javascript\">\n      setTimeout(function() {\n        if (window.opener) {\n          window.opener.oauth_success = true;\n        }\n        window.close();\n      }, 1000);\n    </script>\n  </body>\n</html>\n", response.body
+    end
+
   end
 end
