@@ -2,16 +2,18 @@ module IntercomApp
   class WebhooksManager
     class CreationFailed < StandardError; end
 
-    def create_webhooks(intercom_token: intercom_token)
-      @intercom_token = intercom_token
+    def initialize(params)
+      @intercom_token = params[:intercom_token]
+    end
+
+    def create_webhooks
       return unless required_webhooks.present?
       required_webhooks.each do |webhook|
         create_webhook(webhook) unless webhook_exists?(webhook[:topic])
       end
     end
 
-    def destroy_webhooks(intercom_token: intercom_token)
-      @intercom_token = intercom_token
+    def destroy_webhooks
       intercom_client.subscriptions.all.each do |webhook|
         intercom_client.subscriptions.delete(webhook.id) if is_required_webhook?(webhook)
       end
@@ -19,10 +21,9 @@ module IntercomApp
       @current_webhooks = nil
     end
 
-    def recreate_webhooks!(intercom_token: intercom_token)
-      @intercom_token = intercom_token
-      destroy_webhooks(intercom_token: intercom_token)
-      create_webhooks(intercom_token: intercom_token)
+    def recreate_webhooks!
+      destroy_webhooks
+      create_webhooks
     end
 
     private

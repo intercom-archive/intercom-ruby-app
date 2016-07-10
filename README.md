@@ -114,6 +114,8 @@ IntercomApp.configure do |config|
 end
 ```
 
+**Important** You will need to request the `manage_webhooks` permissions from Intercom to receive webhooks from Intercom.
+
 Connect to the Intercom API
 ----------------------
 This gem includes the following libraries :

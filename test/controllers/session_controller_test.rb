@@ -47,7 +47,7 @@ module IntercomApp
         config.webhooks = [{topic: 'users', url: 'example-app.com/webhooks/users'}]
       end
 
-      IntercomApp::WebhooksManager.expects(:create_webhooks)
+      IntercomApp::WebhooksManager.any_instance.expects(:create_webhooks)
 
       mock_intercom_omniauth
       get :callback
@@ -58,7 +58,7 @@ module IntercomApp
         config.webhooks = []
       end
 
-      IntercomApp::WebhooksManager.expects(:create_webhooks).never
+      IntercomApp::WebhooksManager.any_instance.expects(:create_webhooks).never
 
       mock_intercom_omniauth
       get :callback
