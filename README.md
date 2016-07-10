@@ -101,6 +101,19 @@ IntercomApp.configure do |config|
 end
 ```
 
+Webhooks Subscriptions
+----------------------
+
+You can add your webhooks subscriptions to the `IntercomApp.config`. Subscriptions to your topics will be added on authentication callback.
+
+```ruby
+IntercomApp.configure do |config|
+  config.webhooks = [
+    {topic: 'users', address: 'my-intercom-app.com/webhooks/users'}
+  ]
+end
+```
+
 Connect to the Intercom API
 ----------------------
 This gem includes the following libraries :
