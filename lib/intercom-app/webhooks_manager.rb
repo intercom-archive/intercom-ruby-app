@@ -42,8 +42,6 @@ module IntercomApp
 
     def create_webhook(attributes)
       webhook = intercom_client.subscriptions.create(attributes)
-      raise CreationFailed unless webhook.persisted?
-      webhook
     end
 
     def webhook_exists?(topic)
@@ -51,7 +49,7 @@ module IntercomApp
     end
 
     def current_webhooks
-      @current_webhooks ||= intercom_client.subscriptions.all.index_by(&:topic)
+      @current_webhooks ||= intercom_client.subscriptions.all.index_by(&:topics)
     end
   end
 end

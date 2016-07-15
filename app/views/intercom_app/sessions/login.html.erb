@@ -4,7 +4,10 @@
   </a>
   <script type="text/javascript">
   $('.intercom-oauth-cta').unbind('click').click(function() {
-      var auth_window = window.open('/auth/intercom', 'Sign in', 'width=700,height=450');
+      var left = (screen.width/2)-(700/2);
+      var top = (screen.height/2)-(450/2);
+      var opts = 'width=700, height=450, top='+top+', left='+left
+      var auth_window = window.open('/auth/intercom', 'Sign in', opts);
       var checkWindow = function() {
         if (auth_window.closed) {
         window.location = '/';

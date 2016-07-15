@@ -5,8 +5,8 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
   setup do
     IntercomApp.configure do |config|
       config.webhooks = [
-        {topic: 'users', url: "https://example-app.com/webhooks/users"},
-        {topic: 'conversations', url: "https://example-app.com/webhooks/conversations"},
+        {topics: ['users'], url: "https://example-app.com/webhooks/users"},
+        {topics: ['conversations'], url: "https://example-app.com/webhooks/conversations"},
       ]
     end
 
@@ -16,30 +16,10 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
   test "#create_webhooks makes calls to create webhooks" do
     Intercom::Service::Subscription.any_instance.stubs(all: [])
 
-    expect_webhook_creation('users', "https://example-app.com/webhooks/users")
-    expect_webhook_creation('conversations', "https://example-app.com/webhooks/conversations")
+    expect_webhook_creation(['users'], "https://example-app.com/webhooks/users")
+    expect_webhook_creation(['conversations'], "https://example-app.com/webhooks/conversations")
 
     @manager.create_webhooks
-  end
-
-  test "#create_webhooks when creating a webhook fails, raises an error" do
-    Intercom::Service::Subscription.any_instance.stubs(all: [])
-    webhook = stub(persisted?: false)
-    Intercom::Service::Subscription.any_instance.stubs(create: webhook)
-
-    assert_raise IntercomApp::WebhooksManager::CreationFailed do
-      @manager.create_webhooks
-    end
-  end
-
-  test "#create_webhooks when creating a webhook fails and the webhook exists, do not raise an error" do
-    webhook = stub(persisted?: false)
-    webhooks = all_webhook_topics.map{|t| stub(topic: t)}
-    Intercom::Service::Subscription.any_instance.stubs(create: webhook, all: webhooks)
-
-    assert_nothing_raised IntercomApp::WebhooksManager::CreationFailed do
-      @manager.create_webhooks
-    end
   end
 
   test "#recreate_webhooks! destroys all webhooks and recreates" do
@@ -65,9 +45,8 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
 
   private
 
-  def expect_webhook_creation(topic, url)
-    stub_webhook = stub(persisted?: true)
-    Intercom::Service::Subscription.any_instance.expects(:create).with(topic: topic, url: url).returns(stub_webhook)
+  def expect_webhook_creation(topics, url)
+    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: topics, url: url)
   end
 
   def all_webhook_topics
@@ -76,8 +55,8 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
 
   def all_mock_webhooks
     [
-      stub(id: 1, url: "https://example-app.com/webhooks/conversations", topic: 'conversations'),
-      stub(id: 2, url: "https://example-app.com/webhooks/users", topic: 'users'),
+      stub(id: 1, url: "https://example-app.com/webhooks/conversations", topics: ['conversations']),
+      stub(id: 2, url: "https://example-app.com/webhooks/users", topics: ['users']),
     ]
   end
 end
