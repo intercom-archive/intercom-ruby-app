@@ -3,6 +3,9 @@ Intercom App
 
 Intercom Application Rails engine and generator
 
+*Note this SDK is in beta version and still needs a lot of improvements.
+We advise you to use it only if you feel you can help contributing and fix issues when you find them*
+
 Description
 -----------
 This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via Oauth.
@@ -45,6 +48,8 @@ $ rails generate intercom_app --app_key <your_app_key> --app_secret <your_app_se
    - If true you can authenticate with Intercom using a modal
    - If false you can authenticate with Intercom directly from the current tab
 
+
+*Note that you will need to run rake db:migrate after this generator*
 
 ### Install Generator
 
