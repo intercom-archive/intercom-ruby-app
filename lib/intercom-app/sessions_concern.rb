@@ -2,7 +2,8 @@ module IntercomApp
   module SessionsConcern
     extend ActiveSupport::Concern
 
-    def login
+    included do
+      include IntercomApp::LoginProtection
     end
 
     def callback

@@ -44,13 +44,6 @@ class InstallGeneratorTest < Rails::Generators::TestCase
     end
   end
 
-  test "injects into application controller" do
-    run_generator
-    assert_file "app/controllers/application_controller.rb" do |controller|
-      assert_match "  include IntercomApp::LoginProtection\n", controller
-    end
-  end
-
   test "adds engine to routes" do
     run_generator
     assert_file "config/routes.rb" do |routes|

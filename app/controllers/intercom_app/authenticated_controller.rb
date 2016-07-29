@@ -1,6 +1,7 @@
 module IntercomApp
   class AuthenticatedController < ApplicationController
-    # before_action :login_again_if_different_app
+    include IntercomApp::LoginProtection
+
     around_action :intercom_session
     layout 'application'
   end
