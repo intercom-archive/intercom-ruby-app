@@ -9,7 +9,7 @@ module IntercomApp
     def create_webhooks
       return unless required_webhooks.present?
       required_webhooks.each do |webhook|
-        create_webhook(webhook) unless webhook_exists?(webhook[:topic])
+        create_webhook(webhook) unless webhook_exists?(webhook[:topics])
       end
     end
 
@@ -44,8 +44,8 @@ module IntercomApp
       webhook = intercom_client.subscriptions.create(attributes)
     end
 
-    def webhook_exists?(topic)
-      current_webhooks[topic]
+    def webhook_exists?(topics)
+      current_webhooks[topics]
     end
 
     def current_webhooks

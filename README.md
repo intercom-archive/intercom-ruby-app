@@ -114,7 +114,8 @@ You can add your webhooks subscriptions to the `IntercomApp.config`. Subscriptio
 ```ruby
 IntercomApp.configure do |config|
   config.webhooks = [
-    {topics: ['users'], url: 'my-intercom-app.com/webhooks/users'}
+    {topics: ['users'], url: 'https://my-intercom-app.com/webhooks/users'},
+    {topics: ['conversation.user.created', 'conversation.user.replied'], url: 'https://my-intercom-app.com/webhooks/conversations'}
   ]
 end
 ```
