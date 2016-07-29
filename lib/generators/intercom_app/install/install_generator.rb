@@ -36,14 +36,6 @@ module IntercomApp
       end
 
 
-      def inject_into_application_controller
-        inject_into_class(
-          "app/controllers/application_controller.rb",
-          'ApplicationController',
-          "  include IntercomApp::LoginProtection\n"
-        )
-      end
-
       def mount_engine
         route "mount IntercomApp::Engine, at: '/'"
       end
