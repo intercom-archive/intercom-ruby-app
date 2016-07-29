@@ -44,7 +44,7 @@ module IntercomApp
 
     test "#callback should start the WebhooksManager if webhooks are configured" do
       IntercomApp.configure do |config|
-        config.webhooks = [{topic: 'users', url: 'example-app.com/webhooks/users'}]
+        config.webhooks = [{topic: ['users'], url: 'example-app.com/webhooks/users'}]
       end
 
       IntercomApp::WebhooksManager.any_instance.expects(:create_webhooks)

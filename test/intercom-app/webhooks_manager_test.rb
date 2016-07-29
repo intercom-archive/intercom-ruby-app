@@ -6,7 +6,7 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
     IntercomApp.configure do |config|
       config.webhooks = [
         {topics: ['users'], url: "https://example-app.com/webhooks/users"},
-        {topics: ['conversations'], url: "https://example-app.com/webhooks/conversations"},
+        {topics: ['conversation.user.created', 'conversation.user.replied'], url: "https://example-app.com/webhooks/conversations"},
       ]
     end
 
@@ -17,7 +17,7 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
     Intercom::Service::Subscription.any_instance.stubs(all: [])
 
     expect_webhook_creation(['users'], "https://example-app.com/webhooks/users")
-    expect_webhook_creation(['conversations'], "https://example-app.com/webhooks/conversations")
+    expect_webhook_creation(['conversation.user.created', 'conversation.user.replied'], "https://example-app.com/webhooks/conversations")
 
     @manager.create_webhooks
   end
