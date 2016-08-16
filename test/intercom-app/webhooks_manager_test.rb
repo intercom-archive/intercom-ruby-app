@@ -13,45 +13,54 @@ class IntercomApp::WebhooksManagerTest < ActiveSupport::TestCase
     @manager = IntercomApp::WebhooksManager.new(intercom_token: 'some-token')
   end
 
-  test "#create_webhooks makes calls to create webhooks" do
+  teardown do
+    IntercomApp.configuration = nil
+  end
+
+  test "#create_webhooks_subscriptions makes calls to create webhooks" do
     Intercom::Service::Subscription.any_instance.stubs(all: [])
 
-    expect_webhook_creation(['users'], "https://example-app.com/webhooks/users")
-    expect_webhook_creation(['conversation.user.created', 'conversation.user.replied'], "https://example-app.com/webhooks/conversations")
+    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: ['users'], url: "https://example-app.com/webhooks/users")
+    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: ['conversation.user.created', 'conversation.user.replied'], url: "https://example-app.com/webhooks/conversations")
 
-    @manager.create_webhooks
+    @manager.create_webhooks_subscriptions
   end
 
-  test "#recreate_webhooks! destroys all webhooks and recreates" do
-    @manager.expects(:destroy_webhooks)
-    @manager.expects(:create_webhooks)
+  test "#create_webhooks_subscriptions makes calls to create webhooks with hub_secret" do
+    IntercomApp.configure do |config|
+      config.hub_secret = 'some-hash'
+    end
 
-    @manager.recreate_webhooks!
+    Intercom::Service::Subscription.any_instance.stubs(all: [])
+
+    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: ['users'], url: "https://example-app.com/webhooks/users", hub_secret: 'some-hash')
+    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: ['conversation.user.created', 'conversation.user.replied'], url: "https://example-app.com/webhooks/conversations", hub_secret: 'some-hash')
+
+    @manager.create_webhooks_subscriptions
   end
 
-  test "#destroy_webhooks makes calls to destroy webhooks" do
+  test "#recreate_webhooks_subscriptions! destroys all webhooks and recreates" do
+    @manager.expects(:destroy_webhooks_subscriptions)
+    @manager.expects(:create_webhooks_subscriptions)
+
+    @manager.recreate_webhooks_subscriptions!
+  end
+
+  test "#destroy_webhooks_subscriptions makes calls to destroy webhooks" do
     Intercom::Service::Subscription.any_instance.stubs(:all).returns(Array.wrap(all_mock_webhooks.first))
     Intercom::Service::Subscription.any_instance.expects(:delete).with(all_mock_webhooks.first.id)
 
-    @manager.destroy_webhooks
+    @manager.destroy_webhooks_subscriptions
   end
 
-  test "#destroy_webhooks does not destroy webhooks that do not have a matching url" do
+  test "#destroy_webhooks_subscriptions does not destroy webhooks that do not have a matching url" do
     Intercom::Service::Subscription.any_instance.stubs(:all).returns([stub(url: 'http://something-or-the-other.com/webhooks/conversations', id: 7214109)])
     Intercom::Service::Subscription.any_instance.expects(:delete).never
 
-    @manager.destroy_webhooks
+    @manager.destroy_webhooks_subscriptions
   end
 
   private
-
-  def expect_webhook_creation(topics, url)
-    Intercom::Service::Subscription.any_instance.expects(:create).with(topics: topics, url: url)
-  end
-
-  def all_webhook_topics
-    @webhooks ||=  ['users', 'conversations']
-  end
 
   def all_mock_webhooks
     [

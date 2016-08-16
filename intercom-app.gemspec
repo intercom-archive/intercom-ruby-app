@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = IntercomApp::VERSION
   s.date        = '2016-07-04'
   s.summary     = "Intercom.io ruby application boilerplate"
-  s.description = "This gem helps you to get started with your Intercom.io app"
+  s.description = "This gem helps you to get started with your Intercom app"
   s.authors     = ["Kevin Antoine"]
   s.email       = 'kevin.antoine@intercom.io'
   s.files       = ["lib/intercom-app.rb"]
@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.2.2'
 
-  s.add_runtime_dependency 'intercom', '~>3.5'
+  s.add_runtime_dependency 'intercom', '~> 3.5'
   s.add_runtime_dependency 'omniauth-intercom', '~>0.1'
 
   s.add_development_dependency 'rails', '~> 4.2'
