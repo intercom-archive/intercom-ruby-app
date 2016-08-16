@@ -15,6 +15,7 @@ Features:
 ## 0.1.2 (2016--)
 
   * Fix test app crashes
-  * Fix webhook sucbscription
-  * Webhook verification
-  * Move LoginProtection to AuthenticatedController (@Skaelv)
+  * Fix webhooks subscription
+  * Webhooks verification
+  * Move LoginProtection to AuthenticatedController
+  * Create jobs for webhooks (@Skaelv)

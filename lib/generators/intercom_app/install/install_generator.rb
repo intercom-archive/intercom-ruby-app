@@ -19,7 +19,7 @@ module IntercomApp
         @app_key = options['app_key']
         @app_secret = options['app_secret']
         @oauth_modal = options['oauth_modal']
-        @hub_secret = generate_signature
+        @hub_secret = generate_hub_secret
 
         template 'intercom_app.rb', 'config/initializers/intercom_app.rb'
       end
