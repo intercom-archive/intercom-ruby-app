@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    intercom-app (0.1.1)
+    intercom-app (0.2.0)
       intercom (~> 3.5)
       omniauth-intercom (~> 0.1)
 
@@ -85,7 +85,7 @@ GEM
     omniauth (1.3.1)
       hashie (>= 1.2, < 4)
       rack (>= 1.0, < 3)
-    omniauth-intercom (0.1.2)
+    omniauth-intercom (0.1.3)
       omniauth-oauth2 (~> 1.2)
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)

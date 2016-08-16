@@ -12,7 +12,7 @@ Features:
 
   * Add lib files to gemspec (@Skaelv)
 
-## 0.1.2 (2016--)
+## 0.2.0 (2016-08-16)
 
   * Fix test app crashes
   * Fix webhooks subscription

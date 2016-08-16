@@ -10,7 +10,7 @@ class InstallGeneratorTest < Rails::Generators::TestCase
     provide_existing_application_file
     provide_existing_routes_file
     provide_existing_application_controller
-    IntercomApp::Generators::InstallGenerator.any_instance.stubs(:generate_signature).returns('')
+    IntercomApp::Generators::InstallGenerator.any_instance.stubs(:generate_hub_secret).returns('')
   end
 
   test "creates the IntercomApp initializer" do
@@ -23,7 +23,7 @@ class InstallGeneratorTest < Rails::Generators::TestCase
   end
 
   test "creates the IntercomApp initializer with signed webhooks" do
-    IntercomApp::Generators::InstallGenerator.any_instance.stubs(:generate_signature).returns("2aae6c35c94fcfb415dbe95f408b9ce91ee846ed")
+    IntercomApp::Generators::InstallGenerator.any_instance.stubs(:generate_hub_secret).returns("2aae6c35c94fcfb415dbe95f408b9ce91ee846ed")
     run_generator
     assert_file "config/initializers/intercom_app.rb" do |intercom_app|
       assert_match 'config.hub_secret = "2aae6c35c94fcfb415dbe95f408b9ce91ee846ed"', intercom_app
