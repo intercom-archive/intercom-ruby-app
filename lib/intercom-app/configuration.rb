@@ -5,6 +5,7 @@ module IntercomApp
     attr_accessor :app_secret
     attr_accessor :oauth_modal
     attr_accessor :webhooks
+    attr_accessor :hub_secret
 
     def initialize
     end

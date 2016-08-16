@@ -3,8 +3,7 @@ Intercom App
 
 Intercom Application Rails engine and generator
 
-*Note this SDK is in beta version and still needs a lot of improvements.
-We advise you to use it only if you feel you can help contributing and fix issues when you find them*
+*Note this SDK is in beta version and still needs a lot of improvements. We advise you to use it only if you feel you can help contributing and fix issues when you find them*
 
 Description
 -----------
@@ -101,7 +100,7 @@ The `install` generator places your App credentials directly into the intercom_a
 ```ruby
 IntercomApp.configure do |config|
   config.api_key = ENV['INTERCOM_CLIENT_APP_KEY']
-  config.secret = ENV['INTERCOM_CLIENT_APP_SECRET']
+  config.app_secret = ENV['INTERCOM_CLIENT_APP_SECRET']
   config.oauth_modal = false
 end
 ```
@@ -115,12 +114,14 @@ You can add your webhooks subscriptions to the `IntercomApp.config`. Subscriptio
 IntercomApp.configure do |config|
   config.webhooks = [
     {topics: ['users'], url: 'https://my-intercom-app.com/webhooks/users'},
-    {topics: ['conversation.user.created', 'conversation.user.replied'], url: 'https://my-intercom-app.com/webhooks/conversations'}
+    {topics: ['conversation.user.created', 'conversation.user.replied'], url: 'https://my-intercom-app.com/webhooks/conversations'},
+    {topics: ['event.created'], url: 'https://my-intercom-app.com/webhooks/conversations', metadata: { event_names: events } }
   ]
 end
 ```
 
 **Important** You will need to request the `manage_webhooks` permissions from Intercom to receive webhooks from Intercom.
+
 
 Connect to the Intercom API
 ----------------------

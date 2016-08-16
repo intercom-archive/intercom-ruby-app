@@ -2,11 +2,13 @@ require 'intercom-app/version'
 require 'intercom-app/app'
 require 'intercom-app/configuration'
 require 'intercom-app/engine'
+require 'intercom-app/hub_secret_generator'
 require 'intercom-app/in_memory_session_store'
 require 'intercom-app/login_protection'
 require 'intercom-app/session_repository'
 require 'intercom-app/session_storage'
 require 'intercom-app/sessions_concern'
+require 'intercom-app/webhook_verification'
 require 'intercom-app/webhooks_manager'
 
 # deps

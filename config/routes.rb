@@ -4,4 +4,8 @@ IntercomApp::Engine.routes.draw do
     get 'auth/intercom/callback' => :callback
     get 'logout' => :destroy, :as => :logout
   end
+
+  namespace :webhooks do
+    post ':type' => :receive
+  end
 end
