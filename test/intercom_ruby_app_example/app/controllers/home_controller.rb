@@ -1,7 +1,2 @@
-class HomeController < ApplicationController
-
-  def index
-    'index'
-  end
-
+class HomeController < IntercomApp::AuthenticatedController
 end
