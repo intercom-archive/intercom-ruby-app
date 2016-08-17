@@ -14,7 +14,7 @@ module IntercomApp
         }
         session[:intercom] = IntercomApp::SessionRepository.store(app)
         session[:intercom_app_id] = app[:intercom_app_id]
-        IntercomApp::WebhooksManager.new(intercom_token: app[:token]).create_webhooks if IntercomApp.configuration.webhooks.present?
+        IntercomApp::WebhooksManager.new(intercom_token: app[:token]).create_webhooks_subscriptions if IntercomApp.configuration.webhooks.present?
         redirect_to return_address unless IntercomApp.configuration.oauth_modal
       else
         redirect_to login_url
