@@ -19,3 +19,7 @@ Features:
   * Webhooks verification
   * Move LoginProtection to AuthenticatedController
   * Create jobs for webhooks (@Skaelv)
+
+## 0.2.1 (2016-08-17)
+
+  * Fix webhook subscription fail (@Skaelv)
