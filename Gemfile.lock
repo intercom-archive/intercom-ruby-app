@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    intercom-app (0.2.0)
+    intercom-app (0.2.1)
       intercom (~> 3.5)
       omniauth-intercom (~> 0.1)
 
