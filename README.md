@@ -1,19 +1,20 @@
-Intercom App
+Intercom Integration
 ===========
 
 Intercom Application Rails engine and generator
 
-*Note this SDK is in beta version and still needs a lot of improvements. We advise you to use it only if you feel you can help contributing and fix issues when you find them*
+*Note this SDK is in beta version. **It is still subject to breaking changes**.
+We advise you to use it only if you feel you can help contributing and fix issues when you find them*
 
 Description
 -----------
-This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via Oauth.
+This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via OAuth.
 
 Apply to become an Intercom Developer
 --------------------------------
-To create an Intercom application and get your `app_key` and `app_secret` you will need to create an [Intercom application](https://app.intercom.io) first.
-Once your application is created you can apply for an oauth application in the "App Settings >> Oauth" section.
-
+To create an Intercom application and get your `client_id` and `client_secret` you will need to create an [Intercom account](https://app.intercom.io) first.
+Once your application is created you can apply for an OAuth application in the "App Settings >> OAuth" section.
+Make sure you request read admin permission to use [omniauth-intercom](http://github.com/intercom/omniauth-intercom).
 Installation
 ------------
 To get started create a new rails app :
@@ -57,14 +58,14 @@ $ rails generate intercom_app:install
 
 # or optionally with arguments:
 
-$ rails generate intercom_app:install --app_key <your_app_key> --secret <your_app_secret> --oauth_modal true
+$ rails generate intercom_app:install --app_key <intercom_client_id> --secret <intercom_client_secret> --oauth_modal true
 ```
+
+*Note that you will need to run rake db:migrate after this generator*
 
 You can update any of these settings later on easily, the arguments are simply for convenience.
 
 The generator adds IntercomApp and the required initializers to the host Rails application.
-
-After running the `install` generator, you can start your app with `bundle exec rails server` and install your app by visiting localhost.
 
 
 ### App Model Generator
@@ -75,7 +76,7 @@ $ rails generate intercom_app:app_model
 
 The install generator doesn't create any database models for you and if you are starting a new app its quite likely that you will want one (most of our internally developed apps do!). This generator creates a simple app model and a migration. It also creates a model called `SessionStorage` which interacts with `IntercomApp::SessionRepository`. Check out the later section to learn more about `IntercomApp::SessionRepository`
 
-*Note that you will need to run rake db:migrate after this generator*
+
 
 
 ### Home Controller Generator
