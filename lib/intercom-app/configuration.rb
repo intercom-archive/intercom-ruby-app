@@ -7,6 +7,7 @@ module IntercomApp
     attr_accessor :webhooks
     attr_accessor :hub_secret
     attr_accessor :callback_hash
+    attr_accessor :store_in_session_before_login
 
     def initialize
     end

@@ -113,15 +113,36 @@ IntercomApp.configure do |config|
 end
 ```
 
+Session storage
+----------------------
+
+Configure the `store_in_session_before_login` Proc to store parameters in session before OAuth.
+```ruby
+IntercomApp.configure do |config|
+  # storing data in the session before the authentication helps you access them on the callback
+  # response contains omniauth hash (https://github.com/intercom/omniauth-intercom)
+  config.store_in_session_before_login = Proc.new do |session, params|
+      session[:name] = params[:name]
+      session[:third_party_admin_id] = params[:third_party_admin_id]
+    end
+  }
+end
+```
+
+
 Callback Storage
 ----------------------
 
 When customers authenticate your app against Intercom, the OAuth `token` and the `intercom_app_id` are stored in the `App` model.
 To store custom data you simply need to add new attributes to `App` model by running a migration and configure the `callback_hash` Proc to return this custom data :
 
+```shell
+rails generate migration addNameAndThirdPartyAdminIdToApp
+```
+
 ```ruby
 IntercomApp.configure do |config|
-  # storing data in the session before the auhtentication helps you access them on the callback
+  # retrieve previously stored in session params
   # response contains omniauth hash (https://github.com/intercom/omniauth-intercom)
   config.callback_hash = Proc.new { |session, response|
     {
