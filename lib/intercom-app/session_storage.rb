@@ -5,7 +5,7 @@ module IntercomApp
     class_methods do
       def store(sess)
         app = self.find_or_initialize_by(intercom_app_id: sess[:intercom_app_id])
-        app.intercom_token = sess[:intercom_token]
+        sess.each {|k,v| app[k] = v}
         app.save!
         app.id
       end
@@ -13,11 +13,9 @@ module IntercomApp
       def retrieve(id)
         return unless id
         if app = self.find_by(id: id)
-          session = {
-            id: app.id,
-            intercom_app_id: app.intercom_app_id,
-            intercom_token: app.intercom_token
-          }
+          session = {}
+          app.instance_variables{|k| session[k] = app[k]}
+          session
         end
       end
     end

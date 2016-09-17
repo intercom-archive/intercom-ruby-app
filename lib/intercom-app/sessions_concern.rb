@@ -14,7 +14,9 @@ module IntercomApp
       if response = request.env['omniauth.auth']
         app = {
           intercom_token: response['credentials']['token'],
-          intercom_app_id: response['extra']['raw_info']['app']['id_code']
+          intercom_app_id: response['extra']['raw_info']['app']['id_code'],
+          name: response['extra']['raw_info']['name'],
+          email: response['extra']['raw_info']['email']
         }
         app = app.merge(callback_hash.call(session, response)) if callback_hash
         session[:intercom] = IntercomApp::SessionRepository.store(app)
