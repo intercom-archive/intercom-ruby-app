@@ -12,6 +12,7 @@ module IntercomApp
           token: response['credentials']['token'],
           intercom_app_id: response['extra']['raw_info']['app']['id_code']
         }
+        app = app.merge(callback_hash.call(session, response)) if callback_hash
         session[:intercom] = IntercomApp::SessionRepository.store(app)
         session[:intercom_app_id] = app[:intercom_app_id]
         IntercomApp::WebhooksManager.new(intercom_token: app[:token]).create_webhooks_subscriptions if IntercomApp.configuration.webhooks.present?
@@ -32,5 +33,8 @@ module IntercomApp
       session.delete(:return_to) || '/'
     end
 
+    def callback_hash
+      IntercomApp.configuration.callback_hash
+    end
   end
 end
