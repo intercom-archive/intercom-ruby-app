@@ -3,9 +3,6 @@ Intercom Integration
 
 Intercom Application Rails engine and generator
 
-*Note this SDK is in beta version. **It is still subject to breaking changes**.
-We advise you to use it only if you feel you can help contributing and fix issues when you find them*
-
 Description
 -----------
 This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via OAuth.
@@ -25,7 +22,7 @@ $ rails new my_intercom_app
 $ cd my_intercom_app
 ```
 Then add `intercom-app` to your Gemfile and bundle install :
-`gem 'intercom-app'`
+`gem 'intercom-app', '>= 0.2.1'`
 and run :
 ``` sh
 $ bundle install
