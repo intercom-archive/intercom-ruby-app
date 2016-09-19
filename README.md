@@ -99,6 +99,7 @@ The `install` generator places your App credentials directly into the intercom_a
 IntercomApp.configure do |config|
   config.api_key = ENV['INTERCOM_CLIENT_APP_KEY']
   config.app_secret = ENV['INTERCOM_CLIENT_APP_SECRET']
+  config.hub_secret = ENV['INTERCOM_WEBHOOK_HUB_SECRET']
   config.oauth_modal = false
 end
 ```
