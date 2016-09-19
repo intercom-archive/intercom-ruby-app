@@ -48,6 +48,13 @@ $ rails generate intercom_app --app_key <your_app_key> --app_secret <your_app_se
 
 *Note that you will need to run rake db:migrate after this generator*
 
+
+
+### Adding your own Intercom app to your Integration
+
+If you wish to add Intercom's widget for your integration (which you definitely should!), we recommend that you configure [intercom-rails]("https://github.com/intercom/intercom-rails") independently.
+
+
 ### Install Generator
 
 ```sh
