@@ -7,6 +7,8 @@ Description
 -----------
 This gem includes a Rails Engine and generators for writing Rails applications using the Intercom API. The Engine provides a SessionsController and all the required code for authenticating with an app via OAuth.
 
+[Getting started with Intercom Integrations](https://developers.intercom.io/docs/integration-setup-guide)
+
 Apply to become an Intercom Developer
 --------------------------------
 To create an Intercom application and get your `client_id` and `client_secret` you will need to create an [Intercom account](https://app.intercom.io) first.
@@ -121,6 +123,11 @@ end
 
 **Important** You will need to request the `manage_webhooks` permissions from Intercom to receive webhooks from Intercom.
 
+
+Intercom-Wix
+----------------------
+
+The [intercom-wix](https://github.com/Skaelv/intercom-wix) app is an example of an integration generated with the `intercom-ruby-app`.
 
 Connect to the Intercom API
 ----------------------
