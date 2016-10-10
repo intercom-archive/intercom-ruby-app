@@ -80,7 +80,7 @@ The generator adds IntercomApp and the required initializers to the host Rails a
 $ rails generate intercom_app:app_model
 ```
 
-The install generator doesn't create any database models for you and if you are starting a new app its quite likely that you will want one (most of our internally developed apps do!). This generator creates a simple app model and a migration. It also creates a model called `SessionStorage` which interacts with `IntercomApp::SessionRepository`. Check out the later section to learn more about `IntercomApp::SessionRepository`
+The install generator doesn't create any database models for you and if you are starting a new app its quite likely that you will want one (most of our internally developed apps do!). This generator creates a simple `App` model and a migration. It also creates a model called `SessionStorage` which interacts with `IntercomApp::SessionRepository`. Check out the later section to learn more about `IntercomApp::SessionRepository`
 
 
 
@@ -110,6 +110,25 @@ IntercomApp.configure do |config|
   config.app_secret = ENV['INTERCOM_CLIENT_APP_SECRET']
   config.hub_secret = ENV['INTERCOM_WEBHOOK_HUB_SECRET']
   config.oauth_modal = false
+end
+```
+
+Callback Storage
+----------------------
+
+When customers authenticate your app against Intercom, the OAuth `token` and the `intercom_app_id` are stored in the `App` model.
+To store custom data you simply need to add new attributes to `App` model by running a migration and configure the `callback_hash` Proc to return this custom data :
+
+```ruby
+IntercomApp.configure do |config|
+  # storing data in the session before the auhtentication helps you access them on the callback
+  # response contains omniauth hash (https://github.com/intercom/omniauth-intercom)
+  config.callback_hash = Proc.new { |session, response|
+    {
+      name: response[:name],
+      third_party_admin_id: session[:admin_id]
+    }
+  }
 end
 ```
 

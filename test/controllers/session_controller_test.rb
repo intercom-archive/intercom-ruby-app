@@ -11,7 +11,7 @@ module IntercomApp
 
     test "#login" do
       get :login
-      assert_match "<a href=\"/auth/intercom\">Login</a>", response.body
+      assert_match "  <a href=\"/auth/intercom\">\n    <img src=\"https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png\" srcset=\"https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x\"/>\n  </a>\n", response.body
     end
 
     test "#login with oauth_modal config" do
