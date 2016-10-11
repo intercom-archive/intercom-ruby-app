@@ -23,3 +23,10 @@ Features:
 ## 0.2.1 (2016-08-17)
 
   * Fix webhook subscription fail (@Skaelv)
+
+## 0.2.2 (2016-10-11)
+
+    *  Add callback_hash Proc for custom storage
+    *  Add session_storage_on_login Proc for custom storage
+    *  Rename token to intercom_token
+    *  Allow custom storage to intercom App model (@Skaelv)

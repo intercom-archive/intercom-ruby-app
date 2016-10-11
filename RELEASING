@@ -3,9 +3,9 @@ To release a new version of the intercom-ruby-app gem :
 2. Add a CHANGELOG entry
 3. Commit to master with an explicit message : "Bump to vX.Y.Z"
 4. Tag the new release :
-  $ git tag VX.Y.Z
+  $ git tag -a vx.y.z -m 'Tag message'
 5. Push the new release :
-  $ git push
+  $ git push origin master
 6. Push the new tag :
   $ git push --tags
 7. Build the new gem :
