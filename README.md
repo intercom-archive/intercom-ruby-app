@@ -120,7 +120,7 @@ Configure the `store_in_session_before_login` Proc to store parameters in sessio
 ```ruby
 IntercomApp.configure do |config|
   # storing data in the session before the authentication helps you access them on the callback
-  # response contains omniauth hash (https://github.com/intercom/omniauth-intercom)
+  # params contains omniauth hash (https://github.com/intercom/omniauth-intercom)
   config.store_in_session_before_login = Proc.new do |session, params|
       session[:name] = params[:name]
       session[:third_party_admin_id] = params[:third_party_admin_id]

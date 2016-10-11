@@ -5,7 +5,7 @@ module IntercomApp
     class_methods do
       def store(sess)
         app = self.find_or_initialize_by(intercom_app_id: sess[:intercom_app_id])
-        app.intercom_token = sess[:token]
+        app.intercom_token = sess[:intercom_token]
         app.save!
         app.id
       end
@@ -16,7 +16,7 @@ module IntercomApp
           session = {
             id: app.id,
             intercom_app_id: app.intercom_app_id,
-            token: app.intercom_token
+            intercom_token: app.intercom_token
           }
         end
       end

@@ -9,7 +9,7 @@ module IntercomApp
     def intercom_session
       if app_session
         begin
-          @intercom_client = Intercom::Client.new(token: app_session[:token])
+          @intercom_client = Intercom::Client.new(token: app_session[:intercom_token])
           yield
         end
       else
