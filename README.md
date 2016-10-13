@@ -24,7 +24,7 @@ $ rails new my_intercom_app
 $ cd my_intercom_app
 ```
 Then add `intercom-app` to your Gemfile and bundle install :
-`gem 'intercom-app', '>= 0.2.1'`
+`gem 'intercom-app', '>= 0.2.3'`
 and run :
 ``` sh
 $ bundle install
@@ -38,7 +38,7 @@ Generators
 
 ### Default Generator
 
-The default generator will run the `install`, `app_model`, and `home_controller` generators. 
+The default generator will run the `install`, `app_model`, and `home_controller` generators.
 ** This is the recommended way to start your app. **
 
 ```sh
@@ -50,7 +50,7 @@ $ rails generate intercom_app --app_key <intercom_client_id> --app_secret <inter
 
 You can now run :
 
-At this point you've finished the setup. 
+At this point you've finished the setup.
 You can run:
 
 ```sh
