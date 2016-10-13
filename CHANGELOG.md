@@ -30,3 +30,8 @@ Features:
     *  Add session_storage_on_login Proc for custom storage
     *  Rename token to intercom_token
     *  Allow custom storage to intercom App model (@Skaelv)
+
+## 0.2.3 (2016-10-13)
+
+    *  Add core style from intercom
+    *  Redesign login page (@Skaelv)

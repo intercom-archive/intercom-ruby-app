@@ -1,14 +1,16 @@
 To release a new version of the intercom-ruby-app gem :
-1. Update the version number in `intercom-ruby-app/lib/intercom-ruby-app.rb`
-2. Add a CHANGELOG entry
-3. Commit to master with an explicit message : "Bump to vX.Y.Z"
-4. Tag the new release :
+1. git checkout master
+2. git pull origin master
+3. Update the version number in `intercom-ruby-app/lib/intercom-ruby-app.rb`
+4. Add a CHANGELOG entry
+5. Commit to master with an explicit message : "Bump to vX.Y.Z"
+6. Tag the new release :
   $ git tag -a vx.y.z -m 'Tag message'
-5. Push the new release :
+7. Push the new release :
   $ git push origin master
-6. Push the new tag :
+8. Push the new tag :
   $ git push --tags
-7. Build the new gem :
+9. Build the new gem :
   $ gem build intercom-app.gemspec
-8. Push the new gem :
+10. Push the new gem :
   $ gem push intercom-app-X.Y.Z.gem
