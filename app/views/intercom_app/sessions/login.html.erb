@@ -1,25 +1,26 @@
-<% if IntercomApp.configuration.oauth_modal %>
-  <a href="javascript:void(0)" class="intercom-oauth-cta">
-    <img src="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png" srcset="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x"/>
-  </a>
-  <script type="text/javascript">
-  $('.intercom-oauth-cta').unbind('click').click(function() {
-      var left = (screen.width/2)-(700/2);
-      var top = (screen.height/2)-(450/2);
-      var opts = 'width=700, height=450, top='+top+', left='+left
-      var auth_window = window.open('/auth/intercom', 'Sign in', opts);
-      var checkWindow = function() {
-        if (auth_window.closed) {
-        window.location = '/';
-        } else if (window.oauth_success === undefined) {
-          setTimeout(checkWindow, 200);
-      }
-      };
-    checkWindow();
-  });
-  </script>
-<% else %>
-  <a href="/auth/intercom">
-    <img src="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png" srcset="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x"/>
-  </a>
-<% end %>
+<div class="card" style="max-width: 600px; margin: 0 auto;margin-top: 120px;">
+  <div class="card__inner">
+    <div style="width: 100%;" class="layout__box o__has-columns">
+      <div class="layout__box" style="padding-top: 50px; text-align: center; width: 80px;">
+        <div class="avatar__container o__medium">
+            <span class="avatar o__contained">
+              <%= image_tag("logos/intercom.png", :class => "avatar__media") %>
+            </span>
+        </div>
+      </div>
+      <div class="layout__box o__has-raws o__flexes-to-1" style="width: 100%;padding: 20px;">
+        <div class="layout__box" style="text-align: center;margin-bottom: 20px">
+          <h1 class="t__h1">Intercom</h1>
+          <p style="margin-bottom: 20px">Intercom is a customer platform with a suite of products for live chat, marketing, feedback, and support.</p>
+          <%= render :partial => "connect_button.html.erb" %>
+        </div>
+        <div class="card__expanded-content o__visible layout__box" style="text-align: center; ">
+          <div class="card__inner">
+            Don't have an Intercom account yet?
+            <a href="https://app.intercom.com/a/start" class="t__em-link" target="_blank">Create one</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

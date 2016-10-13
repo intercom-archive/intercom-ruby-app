@@ -61,6 +61,9 @@ If you visit `localhost:3000` you'll be able to complete the OAuth flow and rece
 
 You can make calls to Intercom APIs using `@intercom_client` in all controllers that inherits from `IntercomApp::AuthenticatedController`. This `@intercom_client` variable is instantiated with the token associated to the current session.
 
+
+![](https://github.com/intercom/intercom-ruby-app/raw/master/screenshot.png?raw=true)
+
 ### Adding your own Intercom app to your Integration
 
 If you want to add Intercom's widget for your integration (which you definitely should!), we recommend that you configure [intercom-rails]("https://github.com/intercom/intercom-rails") independently.
