@@ -38,7 +38,8 @@ Generators
 
 ### Default Generator
 
-The default generator will run the `install`, `app_model`, and `home_controller` generators. This is the recommended way to start your app.
+The default generator will run the `install`, `app_model`, and `home_controller` generators. 
+** This is the recommended way to start your app. **
 
 ```sh
 $ rails generate intercom_app --app_key <intercom_client_id> --app_secret <intercom_client_secret> --oauth_modal true
@@ -47,10 +48,17 @@ $ rails generate intercom_app --app_key <intercom_client_id> --app_secret <inter
    - If true you can authenticate with Intercom using a modal
    - If false you can authenticate with Intercom directly from the current tab
 
+You can now run :
 
-*Note that you will need to run rake db:migrate after this generator*
+At this point you've finished the setup. 
+You can run:
 
-At this point you've finished the setup. You can run `rails s` and complete Intercom Authentication to generate a new intercom_token.
+```sh
+rake db:migrate
+rails s
+```
+If you visit `localhost:3000` you'll be able to complete the OAuth flow and receive an authentication token.
+
 You can make calls to Intercom APIs using `@intercom_client` in all controllers that inherits from `IntercomApp::AuthenticatedController`. This `@intercom_client` variable is instantiated with the token associated to the current session.
 
 ### Adding your own Intercom app to your Integration
