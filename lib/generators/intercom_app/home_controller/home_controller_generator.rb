@@ -13,6 +13,18 @@ module IntercomApp
         copy_file 'index.html.erb', 'app/views/home/index.html.erb'
       end
 
+      def create_intercom_css
+        copy_file 'intercom.css', 'app/assets/stylesheets/intercom.css'
+      end
+
+      def create_intercom_logo
+        copy_file 'intercom.png', 'app/assets/images/logos/intercom.png'
+      end
+
+      def create_application_view
+        copy_file 'application.html.erb', 'app/views/layouts/application.html.erb'
+      end
+
       def add_home_index_route
         route "root :to => 'home#index'"
       end

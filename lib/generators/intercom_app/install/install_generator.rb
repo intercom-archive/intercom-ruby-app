@@ -47,7 +47,7 @@ module IntercomApp
       private
 
       def generate_hub_secret
-        if yes?("In order to increase the safety of your app, would you like your webhooks to be automatically signed?(y/n)")
+        if yes?("In order to increase the safety of your app, would you like your webhooks to be automatically signed?(y/N)")
           return random_hub_secret
         else
           return ''

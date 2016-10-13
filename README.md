@@ -53,6 +53,9 @@ $ rails generate intercom_app --app_key <intercom_client_id> --app_secret <inter
 At this point you've finished the setup. You can run `rails s` and complete Intercom Authentication to generate a new intercom_token.
 You can make calls to Intercom APIs using `@intercom_client` in all controllers that inherits from `IntercomApp::AuthenticatedController`. This `@intercom_client` variable is instantiated with the token associated to the current session.
 
+
+![](https://github.com/intercom/intercom-ruby-app/raw/master/screenshot.png?raw=true)
+
 ### Adding your own Intercom app to your Integration
 
 If you want to add Intercom's widget for your integration (which you definitely should!), we recommend that you configure [intercom-rails]("https://github.com/intercom/intercom-rails") independently.
