@@ -11,7 +11,7 @@ This gem includes a Rails Engine and generators for writing Rails applications u
 
 Apply to become an Intercom Developer
 --------------------------------
-To create an Intercom application and get your `client_id` and `client_secret` you will need to create an [Intercom account](https://app.intercom.io) first.
+To create an Intercom application and get your `client_id` and `client_secret` you will need to create an [Intercom account](https://app.intercom.io) first. For the Redirect URL ensure that you add `/auth/intercom/callback` to your URL (e.g. `https://<YOUR_URL>:3000/auth/intercom/callback`).
 Once your application is created you can apply for an OAuth application in the "App Settings >> OAuth" section.
 Make sure you request read admin permission to use [omniauth-intercom](http://github.com/intercom/omniauth-intercom).
 Installation
@@ -57,7 +57,7 @@ You can run:
 rake db:migrate
 rails s
 ```
-If you visit `localhost:3000` you'll be able to complete the OAuth flow and receive an authentication token.
+If you visit `http://<YOUR_URL>:3000` you'll be able to complete the OAuth flow and receive an authentication token.
 
 You can make calls to Intercom APIs using `@intercom_client` in all controllers that inherits from `IntercomApp::AuthenticatedController`. This `@intercom_client` variable is instantiated with the token associated to the current session.
 
