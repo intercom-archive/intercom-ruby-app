@@ -35,3 +35,7 @@ Features:
 
     *  Add core style from intercom
     *  Redesign login page (@Skaelv)
+
+## 0.2.4 (2016-10-19)
+
+    *  Add name, email by default to App model (@Skaelv)
