@@ -3,6 +3,8 @@ class CreateApps < ActiveRecord::Migration
     create_table :apps  do |t|
       t.string :intercom_app_id, null: false
       t.string :intercom_token, null: false
+      t.string :name, null: false
+      t.string :email, null: false
       t.timestamps
     end
 
