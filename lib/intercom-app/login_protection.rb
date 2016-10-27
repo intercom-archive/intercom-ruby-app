@@ -9,7 +9,6 @@ module IntercomApp
     def intercom_session
       if app_session
         begin
-          @intercom_client = Intercom::Client.new(token: app_session[:intercom_token])
           yield
         end
       else
@@ -19,10 +18,14 @@ module IntercomApp
 
     def app_session
       return unless session[:intercom]
-      @intercom_session ||= IntercomApp::SessionRepository.retrieve(session[:intercom])
+      @app_session ||= IntercomApp::SessionRepository.retrieve(session[:intercom])
     end
 
     protected
+
+    def intercom_client
+      @intercom_client = Intercom::Client.new(token: app_session[:intercom_token])
+    end
 
     def redirect_to_login
       if request.xhr?

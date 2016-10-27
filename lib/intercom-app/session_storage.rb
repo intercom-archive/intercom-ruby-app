@@ -12,11 +12,7 @@ module IntercomApp
 
       def retrieve(id)
         return unless id
-        if app = self.find_by(id: id)
-          session = {}
-          app.instance_variables{|k| session[k] = app[k]}
-          session
-        end
+        self.find_by(id: id)
       end
     end
   end
