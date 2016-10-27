@@ -15,9 +15,11 @@ module IntercomApp
 
       def create_intercom_css
         copy_file 'intercom.css', 'app/assets/stylesheets/intercom.css'
+        copy_file 'emoji.css', 'app/assets/stylesheets/emoji.css'
       end
 
-      def create_intercom_logo
+      def create_logo
+        copy_file 'logo.png', 'app/assets/images/logos/logo.png'
         copy_file 'intercom.png', 'app/assets/images/logos/intercom.png'
       end
 

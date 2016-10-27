@@ -1,10 +1,40 @@
-<a href="/auth/intercom">
-  <img src="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png" srcset="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x"/>
-</a>
-<h1>Intercom application</h1>
-<!-- <h2>Users list:</h2>
-<ul>
-<% @users_names.each do | name | %>
-     <li> <%= name %></li>
-<% end %> -->
-</ul>
+<div class="card" style="max-width: 600px; margin: 0 auto;margin-top: 120px;">
+  <div class="card__inner">
+    <div class="layout__box o__has-raws o__flexes-to-1" style="width: 100%;">
+      <div class="layout__box" style="text-align: center;margin-bottom: 20px;align-items: center;justify-content: center;">
+        <div class="layout__box o__has-columns o__flexes-to-1" style="text-align: center;height:200px;align-items: center;justify-content: center;">
+          <div class="layout__box avatar__container o__medium"  style="width: 50px;">
+            <span class="avatar o__contained">
+              <%= image_tag("logos/logo.png", :class => "avatar__media") %>
+            </span>
+          </div>
+          <span class="layout__box" style="margin:50px;margin-top:100px"><span class="emoji">&#10084;</span></span>
+          <div class="layout__box avatar__container o__medium" style="width: 35px;margin-top:5px">
+            <span class="avatar o__contained">
+              <%= image_tag("logos/intercom.png", :class => "avatar__media") %>
+            </span>
+          </div>
+        </div>
+        <h1 class="t__h1">You've got Intercom</h1>
+        <p style="margin-bottom: 20px">Get to know your customers:</p>
+        <strong>Segment them</strong> as new, loyal, or slipping away</br>
+        <strong>Watch what they do</strong> in your store</br>
+        <strong>Send them messages</strong> with an Intercom product
+        <div class="layout__box" style="text-align: center;margin: 20px">
+          <span class="btn o__primary" onclick="window.open('https://app.intercom.io/a/apps/<%= @app_id %>')">Go to your Intercom Inbox</span>
+        </div>
+      </div>
+      <div class="card__expanded-content o__visible layout__box" style="text-align: center; ">
+        <div class="card__inner">
+          <div class="outside-text">Did you sign in to the wrong Intercom app?</br>
+            <% if IntercomApp.configuration.oauth_modal %>
+              <a href="javascript:authPopup('/auth/intercom')">Sign in again and choose a new application</a>
+            <% else %>
+              <a href="/auth/intercom">Sign in again and choose a new application
+              </a>
+            <% end %>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,23 +1,23 @@
 <% if IntercomApp.configuration.oauth_modal %>
-  <a href="javascript:void(0)" class="intercom-oauth-cta">
+  <a href="javascript:authPopup('/auth/intercom')">
     <img src="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png" srcset="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x"/>
   </a>
   <script type="text/javascript">
-  $('.intercom-oauth-cta').unbind('click').click(function() {
-      var left = (screen.width/2)-(700/2);
-      var top = (screen.height/2)-(450/2);
-      var opts = 'width=700, height=450, top='+top+', left='+left
-      var auth_window = window.open('/auth/intercom', 'Sign in', opts);
-      var checkWindow = function() {
-        if (auth_window.closed) {
+  authPopup = function(url) {
+    var left = (screen.width/2)-(700/2);
+    var top = (screen.height/2)-(450/2);
+    var opts = 'width=700, height=450, top='+top+', left='+left
+    var auth_window = window.open(url, 'Sign in', opts);
+    var checkWindow = function() {
+      if (auth_window.closed) {
         window.location = '/';
-        } else if (window.oauth_success === undefined) {
-          setTimeout(checkWindow, 200);
+      } else if (window.oauth_success === undefined) {
+        setTimeout(checkWindow, 200);
       }
-      };
+    };
     checkWindow();
-  });
-  </script>
+  };
+</script>
 <% else %>
   <a href="/auth/intercom">
     <img src="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png" srcset="https://static.intercomassets.com/assets/oauth/primary-7edb2ebce84c088063f4b86049747c3a.png 1x, https://static.intercomassets.com/assets/oauth/primary@2x-0d69ca2141dfdfa0535634610be80994.png 2x, https://static.intercomassets.com/assets/oauth/primary@3x-788ed3c44d63a6aec3927285e920f542.png 3x"/>
