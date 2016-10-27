@@ -35,6 +35,7 @@ class LoginProtectionTest < ActionController::TestCase
   test "calling app session retreives session from storage" do
     with_application_test_routes do
       session[:intercom] = "foobar"
+      session[:intercom_token] = "<token>"
       get :index
       IntercomApp::SessionRepository.expects(:retrieve).returns(session).once
       assert @controller.app_session
@@ -51,6 +52,15 @@ class LoginProtectionTest < ActionController::TestCase
     end
   end
 
+  test "calling intercom_client creates an intercom client" do
+    with_application_test_routes do
+      session[:intercom] = "foobar"
+      session[:intercom_token] = "<token>"
+      get :index
+      IntercomApp::SessionRepository.expects(:retrieve).returns(session).once
+      assert_equal session[:intercom_token],  @controller.send(:intercom_client).username_part
+    end
+  end
 
   test '#intercom_session with no Intercom session, redirects to the login url' do
     with_application_test_routes do
