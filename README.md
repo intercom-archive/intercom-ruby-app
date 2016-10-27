@@ -24,7 +24,7 @@ $ rails new my_intercom_app
 $ cd my_intercom_app
 ```
 Then add `intercom-app` to your Gemfile and bundle install :
-`gem 'intercom-app', '>= 0.2.4'`
+`gem 'intercom-app', '>= 0.2.5'`
 and run :
 ``` sh
 $ bundle install

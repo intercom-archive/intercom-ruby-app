@@ -39,3 +39,10 @@ Features:
 ## 0.2.4 (2016-10-19)
 
     *  Add name, email by default to App model (@Skaelv)
+
+
+## 0.2.5 (2016-10-27)
+
+*  Fix retrieving session on callback
+*  New login design
+*  New home page design (@Skaelv)
