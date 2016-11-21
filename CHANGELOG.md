@@ -46,3 +46,7 @@ Features:
 *  Fix retrieving session on callback
 *  New login design
 *  New home page design (@Skaelv)
+
+## 0.2.6 (2016-11-21)
+
+*  omniauth-intercom version bump (@travega)

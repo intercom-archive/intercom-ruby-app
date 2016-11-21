@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.2.2'
 
   s.add_runtime_dependency 'intercom', '~> 3.5.8'
-  s.add_runtime_dependency 'omniauth-intercom', '~> 0.1.3'
+  s.add_runtime_dependency 'omniauth-intercom', '~> 0.1.4'
 
   s.add_development_dependency 'rails', '~> 4.2'
   s.add_development_dependency 'sqlite3', '~> 1.3'
