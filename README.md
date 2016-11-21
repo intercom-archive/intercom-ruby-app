@@ -24,7 +24,7 @@ $ rails new my_intercom_app
 $ cd my_intercom_app
 ```
 Then add `intercom-app` to your Gemfile and bundle install :
-`gem 'intercom-app', '>= 0.2.5'`
+`gem 'intercom-app', '>= 0.2.6'`
 and run :
 ``` sh
 $ bundle install
@@ -211,3 +211,9 @@ http://github.com/intercom/intercom-ruby <= Intercom Ruby API wrapper
 - **Send coherent history**. Make sure each individual commit in your pull
   request is meaningful. If you had to make multiple intermediate commits while
   developing, please squash them before sending them to us.
+
+  ## Troubleshooting
+
+  #### omniauth-intercom > omniauth-oauth2 dependency in v0.1.4
+
+  From v0.1.4 of our `omniauth-intercom` gem we have defined our `omniauth-oauth2` dependency to allow any version from 1.2 on. If you relied on our Gemspec version config for `omniauth-oauth2` you can simply add `gem 'omniauth-oauth2', '~> 1.2'` to your Gemfile. This will ensure your `omniauth-oauth2` version is `1.2.x` again.
