@@ -10,10 +10,11 @@ This gem includes a Rails Engine and generators for writing Rails applications u
 [Getting started with Intercom Integrations](https://developers.intercom.io/docs/integration-setup-guide)
 
 Apply to become an Intercom Developer
---------------------------------
-To create an Intercom application and get your `client_id` and `client_secret` you will need to create an [Intercom account](https://app.intercom.io) first. For the Redirect URL ensure that you add `/auth/intercom/callback` to your URL (e.g. `https://<YOUR_URL>:3000/auth/intercom/callback`).
-Once your application is created you can apply for an OAuth application in the "App Settings >> OAuth" section.
-Make sure you request read admin permission to use [omniauth-intercom](http://github.com/intercom/omniauth-intercom).
+-------------------------------------
+To create an Intercom application, you will need to create an [Intercom account](https://app.intercom.io) first. When your application is created, apply for an OAuth access in the "App Settings >> OAuth" section, in order to get your `client_id` and `client_secret`:
+- For the Redirect URL ensure that you add `/auth/intercom/callback` (e.g. `https://<YOUR_URL>:3000/auth/intercom/callback`).
+- **Make sure you request the `read_single_admin` permission ("Read one admin at a time"), to use [omniauth-intercom](http://github.com/intercom/omniauth-intercom) to authenticate.**
+
 Installation
 ------------
 To get started create a new rails app :
@@ -212,7 +213,7 @@ http://github.com/intercom/intercom-ruby <= Intercom Ruby API wrapper
   request is meaningful. If you had to make multiple intermediate commits while
   developing, please squash them before sending them to us.
 
-  ## Troubleshooting
+## Troubleshooting
 
   #### omniauth-intercom > omniauth-oauth2 dependency in v0.1.4
 
