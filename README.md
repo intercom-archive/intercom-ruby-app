@@ -166,6 +166,25 @@ IntercomApp.configure do |config|
 end
 ```
 
+Protecting controllers and accessing oAuth tokens
+-------------------------------------------------
+
+You can ensure that some controllers are accessible only by users who authenticated your app against Intercom.
+To do so, you controller must inherit from `AuthenticatedController`.
+Further, if you want to access their token in those controllers, simply use `app_session[:intercom_token]`, e.g.
+
+```ruby
+module MyIntercomApp
+  class MyController < AuthenticatedController
+
+    def get
+      print app_session[:intercom_token]
+    end
+
+  end
+end
+```
+
 Webhooks Subscriptions
 ----------------------
 
