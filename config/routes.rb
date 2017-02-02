@@ -8,4 +8,9 @@ IntercomApp::Engine.routes.draw do
   namespace :webhooks do
     post ':type' => :receive
   end
+
+  namespace :api do
+    get ':path' => :proxy, :constraints => {:path => /.*/}
+  end
+
 end
