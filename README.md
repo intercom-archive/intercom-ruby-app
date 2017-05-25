@@ -1,6 +1,9 @@
 Intercom Integration
 ===========
 
+
+**Warning: This project is not actively maintained and will be deprecated soon. If you are using it to build your integration please get in touch** 
+
 Intercom Application Rails engine and generator
 
 Description
